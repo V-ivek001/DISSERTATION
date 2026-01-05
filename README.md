@@ -41,7 +41,7 @@ The dataset used in this project is netflix_customer_churn.csv, which contains c
 * Seaborn – statistical visualisation
 
 ## How to Run the Project
-**Option 1: Run the Notebook**
+### Option 1: Run the Notebook
 
 **Clone the repository:**
 git clone https://github.com/your-username/netflix-customer-churn.git
@@ -55,7 +55,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 **Launch Jupyter Notebook:**
 jupyter notebook Vivek.ipynb
 
-## Option 2: View Without Running Code
+### Option 2: View Without Running Code
 Open Vivek.html in any web browser to view the complete analysis and visualisations.
 
 ## Key Insights
