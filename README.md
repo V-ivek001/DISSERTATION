@@ -26,72 +26,49 @@ The dataset used in this project is netflix_customer_churn.csv, which contains c
 
 ## Objectives
 
-Analyse the distribution of churned and retained customers
+* Analyse the distribution of churned and retained customers
+* Identify key factors associated with customer churn
+* Explore relationships between customer attributes and churn
+* Visualise insights using clear and informative charts
 
-Identify key factors associated with customer churn
+## Technologies Used
 
-Explore relationships between customer attributes and churn
+* Python
+* Jupyter Notebook
+* Pandas – data processing and manipulation
+* NumPy – numerical computation
+* Matplotlib – data visualisation
+* Seaborn – statistical visualisation
 
-Visualise insights using clear and informative charts
+## How to Run the Project
+**Option 1: Run the Notebook**
 
-🛠️ Technologies Used
-
-Python
-
-Jupyter Notebook
-
-Pandas – data processing and manipulation
-
-NumPy – numerical computation
-
-Matplotlib – data visualisation
-
-Seaborn – statistical visualisation
-
-▶️ How to Run the Project
-Option 1: Run the Notebook
-
-Clone the repository:
-
+**Clone the repository:**
 git clone https://github.com/your-username/netflix-customer-churn.git
 
-
-Navigate to the project directory:
-
+**Navigate to the project directory:**
 cd netflix-customer-churn
 
-
-Install required libraries:
-
+**Install required libraries:**
 pip install pandas numpy matplotlib seaborn jupyter
 
-
-Launch Jupyter Notebook:
-
+**Launch Jupyter Notebook:**
 jupyter notebook Vivek.ipynb
 
-Option 2: View Without Running Code
-
+## Option 2: View Without Running Code
 Open Vivek.html in any web browser to view the complete analysis and visualisations.
 
-📈 Key Insights
+## Key Insights
 
-The analysis provides insights into:
+* The analysis provides insights into:
+* Patterns differentiating churned and retained customers
+* Subscription and usage behaviours linked to churn
+* Data-driven observations that can inform retention strategies
+* Detailed explanations and charts are included within the notebook.
 
-Patterns differentiating churned and retained customers
+## Future Enhancements
 
-Subscription and usage behaviours linked to churn
-
-Data-driven observations that can inform retention strategies
-
-Detailed explanations and charts are included within the notebook.
-
-🚀 Future Enhancements
-
-Build machine learning models to predict churn
-
-Perform feature engineering for improved accuracy
-
-Compare multiple classification algorithms
-
-Create an interactive dashboard for stakeholders
+* Build machine learning models to predict churn
+* Perform feature engineering for improved accuracy
+* Compare multiple classification algorithms
+* Create an interactive dashboard for stakeholders
