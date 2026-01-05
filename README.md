@@ -1,59 +1,57 @@
-# DISSERTATION
-Netflix Customer Churn
+# Disseertation
 
-Netflix Customer Churn Analysis 📊
-Project Overview
+# Netflix Customer Churn Analysis
+## Project Description
 
-This project focuses on analysing customer churn in Netflix subscriptions using Python and data science techniques.
-The objective is to understand customer behaviour, identify key drivers of churn, and generate insights that can help improve customer retention strategies.
+This project analyses customer churn in Netflix subscriptions using Python and data science techniques.
+The goal is to identify behavioural and demographic factors that influence customer cancellations and to generate insights that support customer retention strategies.
 
-The analysis is performed in a Jupyter Notebook and includes data cleaning, exploratory data analysis (EDA), and visualisation.
+The analysis is implemented in a Jupyter Notebook and supported with visualisations and exploratory data analysis.
 
-Repository Structure
-├── Vivek.ipynb                 # Main Jupyter Notebook containing the analysis
-├── Vivek.html                  # HTML export of the notebook for easy viewing
-├── netflix_customer_churn.csv  # Dataset used for the analysis
-└── README.md                   # Project documentation
+📂 Repository Structure
+├── Vivek.ipynb
+├── Vivek.html
+├── netflix_customer_churn.csv
+└── README.md
 
-Dataset
+## Dataset Information
 
-The dataset (netflix_customer_churn.csv) contains customer-level information related to Netflix subscriptions, such as:
+The dataset used in this project is netflix_customer_churn.csv, which contains customer-level data including:
 
-Customer demographics
+* Customer demographics
+* Subscription details
+* Usage behaviour
+* Churn status (active or cancelled subscription)
+* This dataset is used for educational and analytical purposes only.
 
-Subscription details
+## Objectives
 
-Usage behaviour
+Analyse the distribution of churned and retained customers
 
-Churn status (whether the customer has cancelled the service)
+Identify key factors associated with customer churn
 
-Note: The dataset is used purely for analytical and educational purposes.
+Explore relationships between customer attributes and churn
 
-Key Objectives
+Visualise insights using clear and informative charts
 
-Understand the distribution of churned vs non-churned customers
-
-Identify patterns and trends linked to customer churn
-
-Explore relationships between customer attributes and churn behaviour
-
-Present insights using clear visualisations
-
-Tools & Technologies
+🛠️ Technologies Used
 
 Python
 
 Jupyter Notebook
 
-Pandas – data manipulation
+Pandas – data processing and manipulation
 
-NumPy – numerical operations
+NumPy – numerical computation
 
-Matplotlib / Seaborn – data visualisation
+Matplotlib – data visualisation
 
-How to Run the Project
+Seaborn – statistical visualisation
 
-Clone this repository:
+▶️ How to Run the Project
+Option 1: Run the Notebook
+
+Clone the repository:
 
 git clone https://github.com/your-username/netflix-customer-churn.git
 
@@ -63,36 +61,37 @@ Navigate to the project directory:
 cd netflix-customer-churn
 
 
-Install the required dependencies:
+Install required libraries:
 
 pip install pandas numpy matplotlib seaborn jupyter
 
 
-Open the notebook:
+Launch Jupyter Notebook:
 
 jupyter notebook Vivek.ipynb
 
+Option 2: View Without Running Code
 
-Alternatively, open Vivek.html directly in a browser to view the analysis without running any code.
+Open Vivek.html in any web browser to view the complete analysis and visualisations.
 
-Results & Insights
+📈 Key Insights
 
-The analysis highlights:
+The analysis provides insights into:
 
-Key factors that influence customer churn
+Patterns differentiating churned and retained customers
 
-Behavioural trends separating retained and churned customers
+Subscription and usage behaviours linked to churn
 
-Actionable insights that could support data-driven retention strategies
+Data-driven observations that can inform retention strategies
 
-Detailed findings and visualisations are available inside the notebook.
+Detailed explanations and charts are included within the notebook.
 
-Future Improvements
+🚀 Future Enhancements
 
-Apply machine learning models to predict churn
+Build machine learning models to predict churn
 
-Perform feature engineering to improve predictive accuracy
+Perform feature engineering for improved accuracy
 
 Compare multiple classification algorithms
 
-Add a dashboard for interactive exploration
+Create an interactive dashboard for stakeholders
